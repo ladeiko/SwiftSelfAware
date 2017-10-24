@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSelfAware"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Swift version of legacy Objective-C 'load' initialization."
   s.homepage         = "https://github.com/ladeiko/SwiftSelfAware"
   s.license          = 'MIT'
@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
   s.source_files     = "Classes/**/*.{m,s,swift}"
   s.frameworks       = "UIKit"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 end
