@@ -2,7 +2,7 @@
 
 [Original idea](http://jordansmith.io/handling-the-deprecation-of-initialize/)
 
-##Purpose
+## Purpose
 Swift solution to run the code on application startup.
 
 ## Installation
