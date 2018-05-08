@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSelfAware"
-  s.version          = "1.0.3"
+  s.version          = "1.0.4"
   s.summary          = "Swift version of legacy Objective-C 'load' initialization."
   s.homepage         = "https://github.com/ladeiko/SwiftSelfAware"
   s.license          = 'MIT'

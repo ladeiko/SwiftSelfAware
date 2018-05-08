@@ -5,6 +5,11 @@
 ## Purpose
 Swift solution to run the code on application startup.
 
+## Changes
+
+### v1.0.4
+* Fix compilation warnings
+
 ## Installation
 
 ### Cocoapods
