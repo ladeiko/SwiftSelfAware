@@ -30,6 +30,10 @@ extension UIApplication {
         objc_getClassList(safeTypes, Int32(typeCount))
     #endif
         for index in 0 ..< typeCount { (types[index] as? SelfAware.Type)?.awake() }
+        #if swift(>=4.1)
         types.deallocate()
+        #else
+        types.deallocate(capacity: typeCount)
+        #endif
     }
 }
